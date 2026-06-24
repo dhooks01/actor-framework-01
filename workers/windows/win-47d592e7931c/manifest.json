@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "platform": "windows",
+  "version": "win-47d592e7931c",
+  "labview_version": "2026",
+  "base_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "base_digest": "sha256:291e91d489caf34b77a511755c254c5a8012477957721a5db6e1c45435e30a80",
+  "seed_image": "ghcr.io/elijah286/labview-ci-with-containers-labview-base:2026",
+  "seed_digest": "sha256:291e91d489caf34b77a511755c254c5a8012477957721a5db6e1c45435e30a80",
+  "worker_layer": "seed-only-copy",
+  "copied_from_base": true,
+  "image_ref": "ghcr.io/dhooks01/actor-framework-01-labview:win-47d592e7931c",
+  "build_date": "2026-06-24T16:38:20Z",
+  "git_sha": "5ce99eaa09b6858438b1e015756693dde7f061b7",
+  "run_url": "https://github.com/dhooks01/actor-framework-01/actions/runs/28114088692",
+  "vipc": [
+    {
+      "file": "ci-tooling.vipc",
+      "packages": [
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_vi_tester",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_utf_junit_report-1.0.1.43"
+      ],
+      "present": true
+    }
+  ],
+  "nipkg_raw": "",
+  "nipkg_packages": []
+}
