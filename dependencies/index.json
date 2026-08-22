@@ -830,13 +830,6 @@
       "date": "2024-11-08T18:31:16Z"
     },
     {
-      "sha": "814b969f41483a439559af51fdc7e245d76222aa",
-      "short": "814b969",
-      "message": "Merge branch 'feature/base_providers' into develop",
-      "author": "sergiov-ni",
-      "date": "2024-11-07T21:02:22Z"
-    },
-    {
       "sha": "9e387d8e90943c06367835c8c574a81f48bcafd8",
       "short": "9e387d8",
       "message": "Build.",
